@@ -38,7 +38,7 @@
 
 <div class='container'>
 
-    <h3>{% if session.get('pred') %} The predicted box office revenue is {{session.get('pred')['pred']}} DOLLARS.</h3>
+    <h3>{% if session.get('pred') %} The predicted revenue is ${{session.get('pred')['pred']}}.</h3>
 
     {% endif %}
     <br>
