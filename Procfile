@@ -1,0 +1,1 @@
+web gunicorn boxofficeapp:app WEB_CONCURRENCY=1 --preload
